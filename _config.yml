@@ -1,5 +1,5 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+title: dysimGL
+description: dysimGL is a simulation tool of Time-Dependent Ginzburg-Landau.
+show_downloads: false
 google_analytics:
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
