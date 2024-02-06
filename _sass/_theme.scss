@@ -10,7 +10,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ body {
 .logo {
   display: inline-block;
   line-height: 0;
-  max-height: 4rem;
+  max-height: 10rem;
   @include flexbox;
   @include align-items(center);
   img {
