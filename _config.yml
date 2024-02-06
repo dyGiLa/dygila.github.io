@@ -95,10 +95,10 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "dysimGL" # Site name or title, also used in jekyll-seo-tag
 #logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "dysimGL is a scalable dynamic simulation software for time-dependent Ginzburg-Landau effective theory of superfluid He-3." # Site url, also used in jekyll-seo-tag
+description: "**dysimGL** is a scalable dynamic simulation software for time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) [effective theory](https://en.wikipedia.org/wiki/Effective_field_theory) of superfluid He-3." # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: ""
-email: "me@daviddarnes.com"
+email: ""
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -126,8 +126,8 @@ navigation_header:
   url: /install/
 #- title: Blog
 #  url: /blog/
-- title: Categories
-  url: /categories/
+- title: docs & How-To
+  url: /docs_HowTo/
 #- title: Search
 #  url: /search/
 
@@ -137,10 +137,10 @@ navigation_footer:
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
+# LinkedIn: https://www.linkedin.com/in/daviddarnes
+# GitHub: https://github.com/daviddarnes
+# link: https://darn.es
+#  RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"
