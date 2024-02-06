@@ -37,17 +37,13 @@ plugins:
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
+  username:  # jekyll-seo-tag > Owners twitter username
+author: # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
+  name: # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -107,17 +103,6 @@ email: ""
 # short_name: "Al" # The web application short name, defaults to the site title
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
-# 8. Site favicons & manifest icons
-#favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-#  16: '/assets/logos/logo@16px.png'
-#  32: '/assets/logos/logo@32px.png'
-#  96: '/assets/logos/logo@96px.png'
-#  120: '/assets/logos/logo@120px.png'
-#  144: '/assets/logos/logo@144px.png'
-#  180: '/assets/logos/logo@180px.png'
-#  512: '/assets/logos/logo@512px.png'
-#  1024: '/assets/logos/logo@1024px.png'
-
 # 9. Site navigation
 navigation_header:
 - title: Home
@@ -132,7 +117,7 @@ navigation_header:
 #  url: /search/
 
 navigation_footer:
-- title: This site is created & maintained by Quann
+- title: site created & maintained by Quann
   url: https://tekniiquann.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
