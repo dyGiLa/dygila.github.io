@@ -1,5 +1,6 @@
  ---
 title: Elements
+feature_image: "/pic/title-pic-a.png"
 excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
