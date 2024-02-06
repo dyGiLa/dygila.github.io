@@ -4,6 +4,7 @@ feature_image: "/pic/title-pic-b.png"
 excerpt: "**dysimGL** is a scalable dynamic simulation software for time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) [effective theory](https://en.wikipedia.org/wiki/Effective_field_theory) of superfluid He-3."
 aside: true
 ---
+**dysimGL** is a scalable dynamic simulation software for time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) [effective theory](https://en.wikipedia.org/wiki/Effective_field_theory) of superfluid He-3.
 
 ## Features
 
