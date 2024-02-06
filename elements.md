@@ -1,4 +1,4 @@
- ---
+---
 title: Elements
 feature_image: "/pic/title-pic-b.png"
 excerpt: "A demo of Markdown and HTML includes"
