@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Elements
+title: Compilation & Installation
 feature_image: "/pic/title-pic-b.png"
 excerpt: "A demo of Markdown and HTML includes"
 aside: true
