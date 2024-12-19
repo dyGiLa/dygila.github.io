@@ -10,9 +10,17 @@ dyGiLa is developed upon few frameworks. There is framework providing mathematic
 And there is also framework providing data streaming in mean of parallel for post-hoc analysis and in-situ visualizing simulating data. 
 The former is provided by [HILA](https://cft-hy.github.io/HILA.home) project, while the latter is project [Ascent](https://ascent.readthedocs.io/en/latest)  
 
-### Getting source and Compile
+### Getting Source and Compile
 
-
+Same as most of FOSS project, dyGiLa is hosted on public source code repositories service providers such as Bitbucket, Github and GitLab.
+{% highlight console %}
+$ git clone git@github.com:dyGiLa/dyGiLa.git 
+{% endhighlight %}
+or
+{% highlight console %}
+$ git clone https://Quang01@bitbucket.org/hindmars/he3-simulator.git
+{% endhighlight %}
+will fetch default branch to the current path under the folder `dyGiLa`.
 
 Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
