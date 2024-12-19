@@ -1,6 +1,6 @@
 ---
 title: Compilation & Installation
-feature_image: "/pic/title-pic-b.png"
+feature_image: "/pic/title-pic-c.png"
 excerpt: "A demo of Markdown and HTML includes"
 ---
 
