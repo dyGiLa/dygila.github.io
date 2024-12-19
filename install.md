@@ -1,24 +1,18 @@
 ---
-title: Compilation & Installation
+title: Clone repo and Compilations
 feature_image: "/pic/title-pic-c.png"
 excerpt: "Clone repo and compilation"
 ---
 
-# Heading 1
+### Library Dependencies 
 
-## Heading 2
+dyGiLa is developed upon few frameworks. There is framework providing mathematical objects, discretized spital grid and time points for lattice field theory support.
+And there is also framework providing data streaming in mean of parallel for post-hoc analysis and in-situ visualizing simulating data. 
+The former is provided by [HILA](https://cft-hy.github.io/HILA.home) project, while the latter is project [Ascent](https://ascent.readthedocs.io/en/latest)  
 
-### Heading 3
+### Getting source and Compile
 
-#### Heading 4
 
-##### Heading 5
-
-###### Heading 6
-
-<small>A small element</small>
-
-[A link](https://david.darn.es "A link")
 
 Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
