@@ -1,7 +1,7 @@
 ---
 title: Compilation & Installation
 feature_image: "/pic/title-pic-c.png"
-excerpt: "A demo of Markdown and HTML includes"
+excerpt: "Clone repo and compilation"
 ---
 
 # Heading 1
