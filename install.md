@@ -14,23 +14,24 @@ Make sure they have been compiled or installed in the proper way before going to
 ### Getting Source and Compile
 
 Same as most of FOSS project, dyGiLa is hosted on public source code repositories service providers such as Bitbucket, Github and GitLab.
-{% highlight console %}
+```console
 $ git clone git@github.com:dyGiLa/dyGiLa.git 
-{% endhighlight %}
+```
 or
-{% highlight console %}
+```console
 $ git clone https://Quang01@bitbucket.org/hindmars/he3-simulator.git
-{% endhighlight %}
+```
 will fetch default branch to the current path under the folder `dyGiLa`.
 After this run 
-{% highlight console %}
+```console
 $ cd dyGiLa
 $ make -j n ARCH=xxx-xxx
-{% endhighlight %}
+```
 to compile the dyGiLa binary. Here `n` is thread numbers of parallel compilation, and `ARCH=xxx-xxx` specifies the architectures of hardwares,
 it could be 
 * `vanila`:`X86-64` CUP architecture
 * `ÀVX`: SIMP/AVX vector accelerating CUP architecture
+
 or for specific clusters:
 * `mahti`: CPU architecture on cluster mahti
 * `mahti-cuda`: GPU-aware MPI architecture on cluster mahti
