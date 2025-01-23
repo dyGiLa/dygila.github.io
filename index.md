@@ -10,4 +10,4 @@ aside: true
 
 - **Scalable** and **Portable** on **hybrid** i.e., CPU-only or CPU-GPGPU hardwares.
 - Lattice Field Theory backed simulation tool, statistic **ergodicity** is always be carefully considered.   
-- Has readable and useful documentation.
+- dyGiLa provides readable and useful documentations which allows users to expand the usage of dyGiLa.
