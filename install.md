@@ -51,3 +51,7 @@ or for specific clusters:
 There are more possibly supported architecture configurations can be found in [HILA](https://cft-hy.github.io/HILA.home) source files.
 
 If every goes well, user could find the linked binary executable `dyGiLa` under `./build` folder.
+However, the reality could be hash and complicated, especially on computational clusters, to which dyGiLa targets.
+In most common cases, these big machines are configured with [Lmod](https://lmod.readthedocs.io/en/latest/) module system.
+The crucial dependency may be missing on their available list such as `LLVM/Clang`, which provides `Abstract Syntax Tree (AST)` utilities for 
+GPU kernel generation. For how to solve this problem or walk around it, please read [Dependencies On Supercomputer of HILA](https://cft-hy.github.io/HILA.home/install)
