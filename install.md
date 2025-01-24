@@ -54,4 +54,4 @@ If every goes well, user could find the linked binary executable `dyGiLa` under 
 However, the reality could be hash and complicated, especially on computational clusters, to which dyGiLa targets.
 In most common cases, these big machines are configured with [Lmod](https://lmod.readthedocs.io/en/latest/) module system.
 The crucial dependency may be missing on their available list such as `LLVM/Clang`, which provides `Abstract Syntax Tree (AST)` utilities for 
-GPU kernel generation. For how to solve this problem or walk around it, please read [Dependencies On Supercomputer of HILA](https://cft-hy.github.io/HILA.home/install)
+GPU kernel generation. For how to solve this problem or walk around it, please read [Dependencies On Supercomputer of HILA](https://cft-hy.github.io/HILA.home/install).
