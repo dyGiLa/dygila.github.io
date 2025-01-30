@@ -1,5 +1,5 @@
 ---
-title: This Page Tracks Latest Benchmarks of dyGiLa 
+title: Tracking Latest Benchmarks of dyGiLa 
 feature_image: "/pic/title-pic-c.png"
 excerpt: "benchmark on supercomputer"
 ---
