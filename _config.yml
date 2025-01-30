@@ -115,6 +115,8 @@ navigation_header:
   url: /docs_HowTo/
 #- title: Search
 #  url: /search/
+- title: Benchmark
+  url: /benchmark/
 
 navigation_footer:
 - title: This site is created and maintained by Dr. Quann Zhang

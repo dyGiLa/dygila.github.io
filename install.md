@@ -16,11 +16,11 @@ need [GNU make](https://www.gnu.org/software/make/), [CMake](https://cmake.org/)
 `FFTW`([FFTW3](https://fftw.org/)) and [LLVM/Clang](https://llvm.org/), make sure these softwares and libraries have been installed on the system you intend to work on. 
 
 When the targeted platform offers [GPGPU](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) supporting, the vendor-specific 
-firmware and libraries have to be installed and configured properly as well. For the `Nvidia` hardware, the architecture e.g.,`sm_75, sm_80, sm_90` etc have to be identified for the hardware,
+firmware and libraries have to be installed and configured properly as well. For the `Nvidia` hardware, the architecture e.g.,`sm_75, sm_80, sm_90` etc have to be identified properly for the hardware,
 and [CUDA](https://developer.nvidia.com/cuda-toolkit) have to be installed, `OpenACC` is not supported. For `ÀMD` hardware, [drivers](https://www.amd.com/en/support/download/drivers.html) and 
-[ROCm](https://rocm.docs.amd.com/en/latest/index.html) have to be installed. 
-However, things could be tricky dependent on architecture,`ÀMD Instinct CDNA` architecture have the full support from [ROCm](https://rocm.docs.amd.com/en/latest/index.html), while `Radeon RDNA` only partially supported by [ROCm](https://rocm.docs.amd.com/en/latest/index.html). 
-To know if given hardware is supported by ROCm, one could check the [ROCm support list](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/reference/system-requirements.html) 
+[ROCm](https://rocm.docs.amd.com/en/latest/index.html) open source library have to be installed. 
+However, things for AMD hardwares could be tricky dependent on their architecture,`ÀMD Instinct CDNA` architecture have the full support from [ROCm](https://rocm.docs.amd.com/en/latest/index.html), while `Radeon RDNA` only partially supported by [ROCm](https://rocm.docs.amd.com/en/latest/index.html). 
+To know if given AMD hardware is supported by ROCm, one could check the [ROCm support list](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/reference/system-requirements.html) 
 
 ### Getting Source and Compile
 
