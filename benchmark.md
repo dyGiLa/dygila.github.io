@@ -1,12 +1,10 @@
 ---
-title: dyGiLa Benchmark
+title: This Page Tracks Latest Benchmarks of dyGiLa 
 feature_image: "/pic/title-pic-c.png"
 excerpt: "benchmark on supercomputer"
 ---
 
 <img src="{{ site.github.url }}/pic/bench1-lumiG-logy.png" alt="Home" width="100%">
-
-### This Page Tracks Latest Benchmarks of dyGiLa 
 
 dyGiLa is developed upon few frameworks. There is framework providing mathematical objects, discretized spital grid and time points for lattice field theory support.
 And there is also framework providing data streaming in mean of parallel for post-hoc analysis and in-situ visualizing simulating data. 
