@@ -1,10 +1,12 @@
 ---
-title: Clone repo and Compilations
+title: dyGiLa Benchmark
 feature_image: "/pic/title-pic-c.png"
-excerpt: "Clone repo and compilation"
+excerpt: "benchmark on supercomputer"
 ---
 
-### Library Dependencies 
+<img src="{{ site.github.url }}/pic/bench1-lumiG-logy.png" alt="Home" width="100%">
+
+### This Page Tracks Latest Benchmarks of dyGiLa 
 
 dyGiLa is developed upon few frameworks. There is framework providing mathematical objects, discretized spital grid and time points for lattice field theory support.
 And there is also framework providing data streaming in mean of parallel for post-hoc analysis and in-situ visualizing simulating data. 
@@ -14,9 +16,6 @@ Make sure they have been compiled or installed in the proper way before going to
 To leverage modern hybrid CPU-GPGPU computational source, both [HILA](https://cft-hy.github.io/HILA.home) and [Ascent](https://ascent.readthedocs.io/en/latest)
 need [GNU make](https://www.gnu.org/software/make/), [CMake](https://cmake.org/), `MPI` ([mpich](https://www.mpich.org/), [openmpi](https://www.open-mpi.org/)), 
 `FFTW`([FFTW3](https://fftw.org/)) and [LLVM/Clang](https://llvm.org/), make sure these softwares and libraries have been installed on the system you intend to work on. 
-
-<img src="{{ site.github.url }}/pic/bench1-lumiG-logy.png" alt="Home" width="100%">
-
 When the targeted platform offers [GPGPU](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units) supporting, the vendor-specific 
 firmware and libraries have to be installed and configured properly as well. For the `Nvidia` hardware, the architecture e.g.,`sm_75, sm_80, sm_90` etc have to be identified properly for the hardware,
 and [CUDA](https://developer.nvidia.com/cuda-toolkit) have to be installed, `OpenACC` is not supported. For `ÀMD` hardware, [drivers](https://www.amd.com/en/support/download/drivers.html) and 
