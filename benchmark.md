@@ -18,6 +18,7 @@ A LUMI-C run with 64 EPYC milan nodes is presented in same plot.
  
 <img src="{{ site.github.url }}/pic/bench1-lumiG-logy.png" alt="Home" width="100%">
 
-
+The programming environment (PE) `LUMI/24.03` was used in this benchmark. 
+This PE provides Cray-spined `Clang/17.0.1` compiler, and `ROCm/6.0.3`.
 
 
