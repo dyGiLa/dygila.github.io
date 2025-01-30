@@ -8,7 +8,7 @@ excerpt: "Clone repo and compilation"
 
 dyGiLa is developed upon few frameworks. There is framework providing mathematical objects, discretized spital grid and time points for lattice field theory support.
 And there is also framework providing data streaming in mean of parallel for post-hoc analysis and in-situ visualizing simulating data. 
-The former is provided by [HILA](https://cft-hy.github.io/HILA.home) project, while the latter is project [Ascent](https://ascent.readthedocs.io/en/latest) 
+The former is provided by [HILA](https://cft-hy.github.io/HILA.home) project, while the latter is project [Ascent](https://ascent.readthedocs.io/en/latest). 
 Make sure they have been compiled or installed in the proper way before going to next steps. 
 
 To leverage modern hybrid CPU-GPGPU computational source, both [HILA](https://cft-hy.github.io/HILA.home) and [Ascent](https://ascent.readthedocs.io/en/latest)
@@ -48,6 +48,7 @@ or for specific clusters:
 * `mahti-cuda`: GPU-aware MPI architecture on cluster mahti
 * `lumi`: CPU architecture on cluster LUMI
 * `lumi-hip-CC`: GPU-aware MPI architecture on cluster LUMI
+
 There are more possibly supported architecture configurations can be found in [HILA](https://cft-hy.github.io/HILA.home) source files.
 
 If every goes well, user could find the linked binary executable `dyGiLa` under `./build` folder.
