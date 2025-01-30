@@ -3,7 +3,13 @@ title: Tracking Latest Benchmarks of dyGiLa
 feature_image: "/pic/title-pic-c.png"
 excerpt: "benchmark on supercomputer"
 ---
+Along the course of development of dyGiLa, multiple stages of benchmark on computing clusters will be conducted.
+This page dedicates to track the benchmarks of dyGiLa on different hardwares and their scaling capabilities. 
+Based on what kind and how many computing resources on hand, the statistics of benchmark data may change according how many 
+resources can be put on benchmark runs.
 
+#### Strong Scaling Benchmark on LUMI 
+ 
 <img src="{{ site.github.url }}/pic/bench1-lumiG-logy.png" alt="Home" width="100%">
 
 dyGiLa is developed upon few frameworks. There is framework providing mathematical objects, discretized spital grid and time points for lattice field theory support.
@@ -21,36 +27,4 @@ and [CUDA](https://developer.nvidia.com/cuda-toolkit) have to be installed, `Ope
 However, things for AMD hardwares could be tricky dependent on their architecture,`ÀMD Instinct CDNA` architecture have the full support from [ROCm](https://rocm.docs.amd.com/en/latest/index.html), while `Radeon RDNA` only partially supported by [ROCm](https://rocm.docs.amd.com/en/latest/index.html). 
 To know if given AMD hardware is supported by ROCm, one could check the [ROCm support list](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/reference/system-requirements.html) 
 
-### Getting Source and Compile
 
-Same as most of FOSS project, dyGiLa is hosted on public source code repositories service providers Bitbucket and Github.
-```console
-$ git clone git@github.com:dyGiLa/dyGiLa.git ./dyGiLa
-```
-or
-```console
-$ git clone https://bitbucket.org/hindmars/he3-simulator.git ./dyGila
-```
-will fetch default branch to the current path under the folder `dyGiLa`.
-After this run 
-```console
-$ cd dyGiLa
-$ make -j n ARCH=xxx-xxx
-```
-to compile the dyGiLa binary. Here `n` is thread numbers of parallel compilation, and `ARCH=xxx-xxx` specifies the architectures of hardwares,
-it could be 
-* `vanila`:`X86-64` CUP architecture
-* `ÀVX`: SIMP/AVX vector accelerating CUP architecture
-
-or for specific clusters:
-* `mahti`: CPU architecture on cluster mahti
-* `mahti-cuda`: GPU-aware MPI architecture on cluster mahti
-* `lumi`: CPU architecture on cluster LUMI
-* `lumi-hip-CC`: GPU-aware MPI architecture on cluster LUMI
-There are more possibly supported architecture configurations can be found in [HILA](https://cft-hy.github.io/HILA.home) source files.
-
-If every goes well, user could find the linked binary executable `dyGiLa` under `./build` folder.
-However, the reality could be hash and complicated, especially on computational clusters, to which dyGiLa targets.
-In most common cases, these big machines are configured with [Lmod](https://lmod.readthedocs.io/en/latest/) module system.
-The crucial dependency may be missing on their available list such as `LLVM/Clang`, which provides `Abstract Syntax Tree (AST)` utilities for 
-GPU kernel generation. For how to solve this problem or walk around it, please read [Dependencies On Supercomputer of HILA](https://cft-hy.github.io/HILA.home/install).
