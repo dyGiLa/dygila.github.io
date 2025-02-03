@@ -26,4 +26,10 @@ As to be the LUMI maintaining team suggested PE, it does give a perfect strong s
 
 In both plots, x-axis stands for the number of Graphics Compute Dies (GCDs) in a run.
 AMD MI250x has two GCDs per card, then one LUMI-G node has eight GCDs.
+The blue dots and brown diamond are simulation time data and measurement data respectively. 
+They are raw data out of simulations.
+Because the numerical system, which was used for these benchmark runs, are very large, one could expect that the jobs will not 
+be finished in a give time limit such as a day if the hardware resources provided to these runs are not enough.
+These runs are represented with red dots, of which the simulation time were calculated based on how many simulation have been done in log files.
+Besides this un-perfect, one still can conclude that dyGiLa does has perfect strong scaling feature by looking these plots.
 
