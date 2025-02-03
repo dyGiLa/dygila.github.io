@@ -20,16 +20,17 @@ A LUMI-C run with 64 EPYC milan nodes is presented in same plot.
 
 The programming environment (PE) `LUMI/24.03` was used in this benchmark. 
 This PE provides Cray-spined `Clang/17.0.1` compiler, `gfx90a` driver, `ROCm/6.0.3` as well as fine tuned toolchain and building tools.
-As to be the LUMI maintaining team suggested PE, it does give a perfect strong scaling as shown in cumulated times plot.
+As to be the LUMI maintaining team suggested PE, it does give a perfect strong scaling as shown in cumulated times plot. 
+Here the cumulated time means `Ǹo. of GCDs * wall time` for GPUs runs, while `8192 * wall time` for CPU run.
 
 <img src="{{ site.github.url }}/pic/bench1-lumiG-loglog-NoGCDsTimes.png" alt="Home" width="70%">
 
 In both plots, x-axis stands for the number of Graphics Compute Dies (GCDs) in a run.
 AMD MI250x has two GCDs per card, then one LUMI-G node has eight GCDs.
-The blue dots and brown diamond are simulation time data and measurement data respectively. 
+The blue dots and brown diamonds are simulation time data and measurement data respectively. 
 They are raw data out of simulations.
 Because the numerical system, which was used for these benchmark runs, are very large, one could expect that the jobs will not 
 be finished in a give time limit such as a day if the hardware resources provided to these runs are not enough.
-These runs are represented with red dots, of which the simulation time were calculated based on how many simulation have been done in log files.
+These runs are represented with red dots, of which the simulation time were calculated based on how many simulations have been done in log files.
 Besides this un-perfect, one still can conclude that dyGiLa does has perfect strong scaling feature by looking these plots.
 
