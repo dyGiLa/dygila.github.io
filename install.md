@@ -24,13 +24,17 @@ To know if given AMD hardware is supported by ROCm, one could check the [ROCm su
 
 ### Getting Source and Compile
 
-Same as most of FOSS project, dyGiLa is hosted on public source code repositories service providers Bitbucket and Github.
+Same as most of FOSS project, dyGiLa is hosted on public source code repositories service providers Github, Bitbucket and Gitlab.
 ```console
 $ git clone git@github.com:dyGiLa/dyGiLa.git ./dyGiLa
 ```
 or
 ```console
 $ git clone https://bitbucket.org/hindmars/he3-simulator.git ./dyGila
+```
+or
+```console
+$ git clone https://gitlab.com/lftgl2/dygila.git ./dyGila
 ```
 will fetch default branch to the current path under the folder `dyGiLa`.
 After this run 
