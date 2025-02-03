@@ -6,6 +6,9 @@ aside: true
 ---
 **dyGiLa** is a scalable software for Lattice Field Theory simulation of time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) [effective theory](https://en.wikipedia.org/wiki/Effective_field_theory) of p-wave superfluid targeted to liquid Helium-3.
 
+### dyGiLa simulation of B-phase Seeding by "Cosmological" Scenario 
+{% include video.html id="dxdpgGLarog" title="Cosmological" Scenario " %}
+
 ## Features
 
 - **Scalable** and **Portable** on **hybrid** i.e., CPU-only or CPU-GPGPU hardwares.
