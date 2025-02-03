@@ -16,9 +16,14 @@ On each site, there are `18 + 18 + 1 + 3 + 1 = 41` `float` type numbers, which c
 Then the total simulation data is `1.408749 Terabyte`. This setup was run on LUMI-G with different number of nodes ranged form 6 to 30. 
 A LUMI-C run with 64 EPYC milan nodes is presented in same plot.
  
-<img src="{{ site.github.url }}/pic/bench1-lumiG-logy.png" alt="Home" width="100%">
+<img src="{{ site.github.url }}/pic/bench1-lumiG-loglog.png" alt="Home" width="100%">
 
 The programming environment (PE) `LUMI/24.03` was used in this benchmark. 
-This PE provides Cray-spined `Clang/17.0.1` compiler, and `ROCm/6.0.3`.
+This PE provides Cray-spined `Clang/17.0.1` compiler, `gfx90a` driver, `ROCm/6.0.3` as well as fine tuned toolchain and building tools.
+As to be the LUMI maintaining team suggested PE, it does give a perfect strong scaling as shown in cumulated times plot.
 
+<img src="{{ site.github.url }}/pic/bench1-lumiG-loglog-NoGCDsTimes.png" alt="Home" width="100%">
+
+In both plot, x-axis stands for the number of Graphics Compute Dies (GCDs) were used in a run.
+AMD MI250x has two GCDs per card, then one LUMI-G node has eight GCDs.
 
