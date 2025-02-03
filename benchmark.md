@@ -8,7 +8,7 @@ This page dedicates to track the benchmarks of dyGiLa on different hardwares and
 Based on what kind and how many computing resources on hand, the statistics of benchmark data may change according to how many 
 resources could be put on benchmark runs.
 
-#### Strong Scaling Benchmark on LUMI supercomputer -- 30. Jan. 2024
+#### Strong Scaling Benchmark on LUMI supercomputer -- 30. Jan. 2025
 The following plot shows dyGiLa's strong scaling characteristics on `LUMI-G` GPGPU partition.
 the parallel data streaming engine `pario` was turned off in this benchmark.
 the simulation domain has 2048\*2048\*2048 = 8.5899 billions sites on uniform lattice.
