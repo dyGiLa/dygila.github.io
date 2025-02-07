@@ -111,8 +111,8 @@ navigation_header:
   url: /install/
 #- title: Blog
 #  url: /blog/
-- title: docs & How-To
-  url: /docs_HowTo/
+# - title: docs & How-To
+  # url: /docs_HowTo/
 #- title: Search
 #  url: /search/
 - title: Benchmark
