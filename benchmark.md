@@ -15,7 +15,7 @@ Beside the scaling capabilities of dyGiLa's main functionality, the checkpoint i
 is a significant aspect for conducting post-processing out of simulation of dyGiLa. 
 As following plot shown, perfect strong scaling is first impression.
 
-<img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="70%">
+<img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="95%">
 
 When lattice is relatively small, `SpeedUp` is nearly equal to the number of GCDs in used.
 Notice the `ìnsitu` checkpoint does demonstrate strong scaling.
