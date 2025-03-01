@@ -8,6 +8,20 @@ This page dedicates to track the benchmarks of dyGiLa on different hardwares and
 Based on what kind and how many computing resources on hand, the statistics of benchmark data may change according to how many 
 resources could be put on benchmark runs.
 
+#### Scalability Benchmark of dyGiLa on LUMI-G -- 2. Mar. 2025
+A comprehensive benchmark of the strong scaling and weak scaling capabilities of dyGiLa is done recently on LUMI-G
+with `UMI/24.03` PE and `ROCm/6.0.3`.
+Beside the scaling capabilities of dyGiLa's main functionality, the checkpoint is also benchmarked because outputting raw data
+is a significant aspect for conducting post-processing out of simulation of dyGiLa. 
+As following plot shown, perfect strong scaling is first impression.
+
+<img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="70%">
+
+When lattice is relatively small, `SpeedUp` is nearly equal to the number of GCDs in used.
+Notice the `ìnsitu` checkpoint does demonstrate strong scaling.
+`HDF5` checkpoint is faster than `ìnsitu` checkpoint for the `512^3` lattice on 8 GCDs.
+One could expect same behaviors also happen for run with 32 GCDs.
+
 #### Strong Scaling Benchmark on LUMI supercomputer -- 30. Jan. 2025
 The following plot shows dyGiLa's strong scaling characteristics on `LUMI-G` GPGPU partition.
 the parallel data streaming engine `pario` was turned off in this benchmark.
