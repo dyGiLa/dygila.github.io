@@ -14,7 +14,7 @@ A comprehensive benchmark of the strong scaling and weak scaling capabilities of
 with `LUMI/24.03` PE and `ROCm/6.0.3`.
 Beside the scaling capabilities of dyGiLa's main functionality, the `insitu` and `HDF5` checkpoint is also benchmarked because outputting raw data
 is a significant for conducting post-processing out of simulation. 
-As following plots shown, perfect strong scaling is first impression,
+As following plots show, perfect strong scaling is first impression,
 
 <img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="130%">
 
@@ -30,7 +30,7 @@ On the other hand, the weak scaling performance is also perfect, as shown in abo
 The tested workloads per GCD are `256^3` and `512^3` sites respectively. 
 In all tests, weak scaling efficiency remains about 1.
 The interesting observation here is runs with multiple GCDs finish slightly earlier than single GCD run when workload per GCD is `256^3` sites.  
-After increaing workload per GCD to `512^3`, this phenomena became very much less visible.
+After increasing workload per GCD to `512^3`, this phenomena became very much less visible.
 Over all, dyGiLa does demonstrate perfect weak scaling.
 
 ***
