@@ -17,11 +17,11 @@ As following plot shown, perfect strong scaling is first impression,
 
 <img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="130%">
 
-when lattice size is relatively small, `SpeedUp` is nearly equal to the number of GCDs in used.
-Notice the `ìnsitu` checkpoint does demonstrate strong scaling.
-`HDF5` checkpoint is faster than `ìnsitu` checkpoint for the `512^3` lattice on 8 GCDs.
+when lattice size is relatively small, `SpeedUp` nearly equals to the number of GCDs in used.
+Notice the `ìnsitu` checkpoint does demonstrate strong scaling see star markers and cross markers.
+Moreover, `HDF5` checkpoint is faster than `ìnsitu` checkpoint for the `512^3` lattice on 8 GCDs.
 One could expect same behavior also happens for run with 32 GCDs.
-As for /O intensive task like checkpointing, it good tha t LUMI-G still can offer decent strong scaling.
+Considering the I\/O intensity of task like checkpointing, it's good that LUMI-G still can offer decent strong scaling on dyGiLa.
 
 <img src="{{ site.github.url }}/pic/weak-scaling-walltime-speedup-512-1024.png" alt="Home" width="130%">
 
@@ -29,7 +29,7 @@ On the other hand, the weak scaling performance is also perfect, as shown in abo
 The tested workload per GCD are `256^3` and `512^3` sites respectively. 
 In all tests, weak scaling efficiency remains about 1.
 The interesting observation here is runs with multiple GCDs finish slightly earlier than single GCD run when workload per GCD is `256^3` sites.  
-When workload per GCD is increased to `512^3`, the phenomena disappears.
+After increaing workload per GCD to `512^3`, the phenomena became to very much less visible.
 Over all, dyGiLa does demonstrate perfect weak scaling.
 
 #### Strong Scaling Benchmark on LUMI supercomputer -- 30. Jan. 2025
