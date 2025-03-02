@@ -11,16 +11,26 @@ resources could be put on benchmark runs.
 #### Scalability Benchmark of dyGiLa on LUMI-G -- 2. Mar. 2025
 A comprehensive benchmark of the strong scaling and weak scaling capabilities of dyGiLa is done recently on LUMI-G
 with `UMI/24.03` PE and `ROCm/6.0.3`.
-Beside the scaling capabilities of dyGiLa's main functionality, the checkpoint is also benchmarked because outputting raw data
-is a significant aspect for conducting post-processing out of simulation of dyGiLa. 
-As following plot shown, perfect strong scaling is first impression.
+Beside the scaling capabilities of dyGiLa's main functionality, the `insitu` and `HDF5` checkpoint is also benchmarked because outputting raw data
+is a significant for conducting post-processing out of simulation. 
+As following plot shown, perfect strong scaling is first impression,
 
-<img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="120%">
+<img src="{{ site.github.url }}/pic/strong-scaling-walltime-speedup-512-1024.png" alt="Home" width="130%">
 
-When lattice is relatively small, `SpeedUp` is nearly equal to the number of GCDs in used.
+when lattice size is relatively small, `SpeedUp` is nearly equal to the number of GCDs in used.
 Notice the `ìnsitu` checkpoint does demonstrate strong scaling.
 `HDF5` checkpoint is faster than `ìnsitu` checkpoint for the `512^3` lattice on 8 GCDs.
-One could expect same behaviors also happen for run with 32 GCDs.
+One could expect same behavior also happens for run with 32 GCDs.
+As for /O intensive task like checkpointing, it good tha t LUMI-G still can offer decent strong scaling.
+
+<img src="{{ site.github.url }}/pic/weak-scaling-walltime-speedup-512-1024.png" alt="Home" width="130%">
+
+On the other hand, the weak scaling performance is also perfect, as shown in above plot.
+The tested workload per GCD are `256^3` and `512^3` sites respectively. 
+In all tests, weak scaling efficiency remains about 1.
+The interesting observation here is runs with multiple GCDs finish slightly earlier than single GCD run when workload per GCD is `256^3` sites.  
+When workload per GCD is increased to `512^3`, the phenomena disappears.
+Over all, dyGiLa does demonstrate perfect weak scaling.
 
 #### Strong Scaling Benchmark on LUMI supercomputer -- 30. Jan. 2025
 The following plot shows dyGiLa's strong scaling characteristics on `LUMI-G` GPGPU partition.
