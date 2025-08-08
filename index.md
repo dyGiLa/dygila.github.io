@@ -9,6 +9,9 @@ aside: true
 #### dyGiLa simulation of B-phase expansion, vortex defects formation and interaction with domain wall in normal phase "hot blob":        
 {% include video.html id="Q5UuzSTKNwQ" title="heterogeneous quench 10.22" %}
 
+#### dyGiLa simulation on formation of single B-phase bubble and its expansion:                
+{% include video.html id="VcV4VJPWZF0" title="heterogeneous quench 2.4" %}
+
 #### dyGiLa simulation of success (L) & failure (R) on formation of over-critical B-phase bubble in a 2.4 micron "hot blob":  
 {% include video.html id="vw6Wmph0T2k" title="heterogeneous quench 2.4" %}
 
