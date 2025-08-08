@@ -6,11 +6,11 @@ aside: true
 ---
 **dyGiLa** is a scalable software for Lattice Field Theory simulation of time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) [effective theory](https://en.wikipedia.org/wiki/Effective_field_theory) of p-wave superfluid targeted to liquid Helium-3.
 
-#### dyGiLa simulation of B-phase Seeding in hotblob of "Cosmological" Scenario, and a successful A-to-B transition:  
-{% include video.html id="x1LJo_-Bwac" title="Cosmological Scenario " %}
+#### dyGiLa simulation of B-phase expansion, vortex defects formation and interaction with domain wall in normal phase "hot blob":        
+{% include video.html id="Q5UuzSTKNwQ" title="heterogeneous quench 10.22" %}
 
-#### dyGiLa simulation of B-phase Seeding in hotblob of "Cosmological" Scenario, and a failed transition:  
-{% include video.html id="1Fm7_AO3WF4" title="Cosmological Scenario " %}
+#### dyGiLa simulation of success (L) & failure (R) on formation of over-critical B-phase bubble in a 2.4 micron "hot blob":  
+{% include video.html id="vw6Wmph0T2k" title="heterogeneous quench 2.4" %}
 
 ## Features
 
