@@ -30,10 +30,6 @@ $ git clone git@github.com:dyGiLa/dyGiLa.git ./dyGiLa
 ```
 or
 ```console
-$ git clone https://bitbucket.org/hindmars/he3-simulator.git ./dyGila
-```
-or
-```console
 $ git clone https://gitlab.com/lftgl2/dygila.git ./dyGila
 ```
 will fetch default branch to the current path under the folder `dyGiLa`.
