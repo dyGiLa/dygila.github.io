@@ -10,5 +10,12 @@ styles: true
 // }
 
 @import "alembic";
+/* Social icons: shaded green → solid green */
+.aside .nav--social a {
+  color: rgba(45, 164, 78, 0.55);
+}
 
+.aside .nav--social a:hover {
+  color: #2da44e;
+}
 
