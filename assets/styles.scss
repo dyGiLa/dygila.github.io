@@ -4,3 +4,8 @@ styles: true
 ---
 
 @import "alembic";
+/* Make social icons bigger */
+.nav--social {
+  font-size: 2em; /* try 1.25, 1.5, 1.75, 2 — whatever suits */
+}
+
