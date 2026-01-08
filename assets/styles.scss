@@ -3,11 +3,12 @@ title: false
 styles: true
 ---
 
-@import "alembic";
-
 /* Increase social icon size */
 .nav--social .icon {
   width: 2.1em;
   height: 2.1em;
 }
+
+@import "alembic";
+
 
