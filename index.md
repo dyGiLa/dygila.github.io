@@ -7,8 +7,8 @@ aside: true
 **dyGiLa** powers scalable CPU–GPGPU high-performance simulations of p-wave, time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) effective theory applied to He3 superfluid.
 ## Features
 
-- Perfect scaling performence on both NVIDA Grace-Hopper, Ampere and AMD's CDNA2 hardware, check [benchmark](https://dygila.github.io/benchmark)
-- Lattice Field Theory based implementation, statistic **ergodicity** is always be carefully considered.   
+- Perfect scaling and performence on both NVIDA Grace-Hopper, Ampere and AMD's CDNA2 hardware, check [benchmark](https://dygila.github.io/benchmark)
+- The [LFT](https://en.wikipedia.org/wiki/Lattice_field_theory)-based Langevin dynamics implementation ensures a valid thermal equilibrium state and ergodic configuration-space sampling.
 
 #### dyGiLa simulation of B-phase expansion, vortex defects formation and interaction with domain wall in normal phase "hot blob":        
 {% include video.html id="Q5UuzSTKNwQ" title="heterogeneous quench 10.22" %}
