@@ -1,10 +1,10 @@
 ---
-title: dyGiLa Project Home Pgae
+title: dyGiLa Project Home Page
 feature_image: "/pic/title-pic-c.png"
 excerpt: "powers scalable CPU–GPGPU high-performance simulations of p-wave, time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) effective theory applied to He3 superfluid."
 aside: true
 ---
-**dyGiLa** powers scalable CPU–GPGPU high-performance simulations of p-wave, time-dependent  Ginzburg-Landau [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) effective theory applied to He3 superfluid.
+**dyGiLa** powers scalable CPU–GPGPU high-performance simulations of p-wave, time-dependent [Ginzburg-Landau](https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory) effective theory applied to He3 superfluid.
 ## Features
 
 - Perfect scaling performence on both NVIDA Grace-Hopper and AMD's CDNA2 hardware, check [benchmark](https://dygila.github.io/benchmark)
