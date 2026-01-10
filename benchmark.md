@@ -9,7 +9,7 @@ Based on what kind and how many computing resources on hand, the statistics of b
 resources could be put on benchmark runs.
 
 ***
-#### Strong Scaling Benchmark on Nvidia Grace-Hopper 200 -- 26th. Nov. 2025
+#### Strong Scaling Benchmark on Nvidia GH200 -- 26th. Nov. 2025
 With support from NVIDIA, the HILA's development team gained access to four Grace–Hopper 200 (GH200) nodes on an internal NVIDIA cluster.
 We conducted a small-scale yet significant strong-scaling benchmark using a `512^3` lattice on the available GH200 nodes with `CUDA 13.0.0`.
 As shown in the plot below, dyGiLa demonstrates approximately 80% of ideal strong-scaling efficiency on the GH200 cluster.
