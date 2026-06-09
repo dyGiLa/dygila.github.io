@@ -11,10 +11,10 @@ aside: true
 - [LFT](https://en.wikipedia.org/wiki/Lattice_field_theory)-based Langevin dynamics implementation which ensures valid thermal equilibrium states and ergodic configuration sampling.
 - Advanced treatment of boundary conditions—encompassing both Robin and Dirichlet types—for various pairing-breaking scenarios.
 
-#### Anisotropic Surface Tension at A-B Interface of Post-Critical B-phase :                
+#### Anisotropic Surface Tension at A-B Interface of Post-Critical B-phase Bubble in Metastable A-phase:                
 {% include video.html id="W4i5hOnxyd8" title="Anisotropic Tension" %}
 
-#### Pair-Breaking Surface Assisted B-phase Seeding:        
+#### Pair-breaking Surface-Assisted B-phase Seeding: In contrast, a Specular Surface Suppresses the Chance of Successful Seeding:        
 {% include video.html id="p_AtoC1V6GU" title="Surface Assistants" %}
 
 #### dyGiLa simulation of B-phase expansion, vortex defects formation and interaction with domain wall in normal phase "hot blob":        
